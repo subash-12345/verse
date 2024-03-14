@@ -1,0 +1,122 @@
+.MP{
+    color: rgb(33, 47, 77);
+    padding-left: 70px;
+    padding-top: 80px;
+    margin-left: 75px;
+}
+.contt{
+
+    display: flex;
+    margin-top: 20px;
+    width: 920px;
+    padding-top: 10px;
+    scroll-snap-type: x mandatory;
+     overflow-x: scroll;
+     margin-left: 150px;
+     margin-right: 30px;
+}
+.containe{   
+    margin-left: 10pxpx
+}
+.containe2{  
+    margin-left: 40px
+   
+}
+.containe3{
+    margin-left: 40px
+}
+
+.card{
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 20px;
+    border-width:2px;
+    border-color: grey;  
+}
+.C1{
+    width: 296px;
+    height: 200px;
+}
+.C2 {
+    width: 296px;
+    height: 200px;
+}
+
+.C3{
+    width: 296px;
+    height: 200px;
+}
+.card .image-box{
+    height: 200px;
+  
+
+}
+
+.card .image-box .C1{
+    height: 100%;
+     
+}
+
+.Title{
+    padding-left: 15px;
+}
+
+.Life{
+    float: left;
+}
+
+
+.doctor{
+    width: 25px;
+    height: 25px;
+    display: inline;
+}
+
+.logoimg{
+    margin-top: 5px;
+    margin-left: 8px;
+    display: flex;
+}
+.medically{
+    margin-top: 0%;
+    margin-left: 10px;
+    float: left;
+}
+.anticons{
+    display: flex;
+    margin-left: 10px;
+}
+.grey{
+    margin-top: 0%;
+    padding-left: 7px;
+}
+.likeann{
+    margin-bottom: 15px;
+}
+.likean{
+     margin-top: 0px;
+}
+
+.LIFESTYLE{
+   padding-left: 10px;
+}
+
+  
+@media screen and (max-width: 500px){.contt{display: flex; padding-top: 10px;scroll-snap-type: x mandatory; overflow-x: scroll;width:310px; } 
+.containe{ margin-left: 8px;margin-right: 0;}   .MP{padding-left: 8px; padding-top: 15px; margin-left: 0; margin-bottom:4px;} .C1{height: 148px; width: 278px;}
+ .C2{height: 148px; width: 278px;} .C3{height: 148px; width: 278px;} .card{width: 253px; height: 200px; }
+  .containe2{ margin-left: 8px;margin-right: 0;} .containe3{ margin-left: 8px;margin-right: 0; }}
+
+
+@media screen and (max-width: 450px){.contt{display: flex; padding-top: 10px;scroll-snap-type: x mandatory; overflow-x: scroll; width:340px; margin-left: 8px;}
+.C1{height: 148px; width: 278px;} .C2{height: 148px; width: 278px;} .C3{height: 148px; width: 278px;}
+ .containe{ margin-left: 8px;margin-right: 0;}  .MP{padding-left: 8px;padding-top: 15px;} .card{width: 253px; height: 200px;}
+ .containe2{ margin-left: 8px;margin-right: 0; padding-left:30px;} .containe3{ margin-left: 8px;margin-right: 0;} }
+
+
+@media screen and (max-width: 350px){.contt{display: flex; width:310px; margin-left: 10px; padding-top: 10px; margin-right: 0; 
+    margin-left: 5px; scroll-snap-type: x mandatory; overflow-x: scroll;} 
+.C1{height: 148px; width: 278px;} .C2{height: 148px; width: 278px;} .C3{height: 148px; width: 278px;}
+.containe{ margin-left: 8px;margin-right: 0;}  .MP{padding-left: 8px;padding-top: 15px;} .card{width: 253px; height: 200px;}
+.containe2{ margin-left: 8px;margin-right: 0;padding-left: 30px;} .containe3{ margin-left: 8px;margin-right: 0;}}

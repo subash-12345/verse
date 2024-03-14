@@ -1,0 +1,118 @@
+.RP{
+    color: rgb(33, 47, 77);
+    padding-left: 160px;
+    padding-top: 40px;
+}
+.cot{
+    display: flex;
+    margin-left: 150px;
+    padding-right: 0px;
+    width: 1000px;
+}
+.containerrr{   
+    width: 300px;
+    height: 405px;
+    
+}
+.containerrr2{   
+    margin-left: 40px
+}
+.containerrr3{   
+    margin-left: 40px
+}
+
+.card{
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius:20px ;/* Adjust the values to change the curvature */
+    border-top-right-radius: 20px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width:2px;
+    border-color: grey;  
+   
+}
+.x11{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+.y22 {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.z33{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+.card .image-box{
+    height: 200px;
+  
+
+}
+
+.card .image-box .C1{
+    height: 100%;
+     
+}
+
+.Title{
+    padding-left: 15px;
+}
+
+.doctor{
+    width: 25px;
+    height: 25px;
+    display: inline;
+}
+
+.logoimg{
+    margin-top: 5px;
+    margin-left: 8px;
+    display: flex;
+}
+.medically{
+    margin-top: 0%;
+    margin-left: 10px;
+}
+.anticons{
+    display: flex;
+    margin-left: 10px;
+}
+.grey{
+    margin-top: 0%;
+    padding-left: 7px;
+}
+.likean{
+     margin-left: 13px;
+}
+
+.LIFESTYLE{
+   padding-left: 10px;
+}
+
+
+
+@media screen and (max-width: 500px){.RP{padding-left: 9px; } .x11{width:278px;} .Life{font-size: small; font-weight: bold;}
+.doctor{height: 20px; width: 20px;} .medically{font-size: smaller;} .card{ width: 280px;} .y22{width:278px;}
+.wse{margin-top: 5px;}
+.z33{width:278px;} .containerrr2{margin-left: 18px; height: 380px;} .containerrr{height: 380px;} .containerrr3{height: 380px;}
+.cot{display: flex; width: 315px; padding-top: 10px;scroll-snap-type: x mandatory; overflow-x: scroll; margin-left: 15px; }}
+
+
+
+@media screen and (max-width: 450px){.RP{padding-left: 9px; } .x11{width:278px;} .Life{font-size: small; font-weight: bold;} 
+.y22{width:278px;} .doctor{height: 20px; width: 20px;} .medically{font-size: smaller;} .card{ width: 280px;} 
+.containerrr2{margin-left: 18px; height: 380px;} .containerrr{height: 380px;} .containerrr3{height: 380px;} .wse{margin-top: 5px;}
+.z33{width:278px;} .cot{ margin: left 15px; display:flex; width: 315px; padding-top: 10px;scroll-snap-type: x mandatory; overflow-x: scroll; }}
+
+
+
+@media screen and (max-width: 350px){.RP{padding-left: 9px; }.x11{width:278px;} .Life{font-size: small; font-weight: bold;}
+.y22{width:278px;} .doctor{height: 20px; width: 20px;} .medically{font-size: smaller;} .card{ width: 280px;}
+.containerrr2{margin-left: 18px; height: 380px;} .wse{margin-top: 5px;}
+.z33{width:278px;}  .containerrr{height: 380px;} .containerrr3{height: 380px;}
+.cot{display: flex; padding-top: 10px; margin: left 15px; scroll-snap-type:x mandatory; width: 315px; overflow-x: scroll; margin-left: 10px;} }

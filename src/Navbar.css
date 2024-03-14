@@ -1,0 +1,244 @@
+
+
+.Navbar{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4px 20px 4px 12px;
+    background-color: rgba(33,47,77);
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    
+  }
+
+  /* Media Query for responsive design */
+@media screen and (max-width: 600px) {
+  .Navbar {
+    align-items: flex-start;
+
+  }
+
+  .menuout{
+    padding-left: 2px;
+  }
+}
+  
+  .menuout{
+    padding-left: 150px;
+  }
+  .img{
+    padding-left: 20px;
+  }
+  .searchout{
+    padding-left: 800px;
+  }
+  .search-bar-container{
+    padding-left: 900px;
+  }
+  
+
+  @media screen and (max-width: 600px){
+    .Navbar {
+      align-items: flex-start;
+    }
+  
+    .menuout{
+      padding-left: 2px;
+      padding-top: 7px;
+    }
+
+    .searchout{
+      padding-left:330px;
+      padding-top: 7px;
+    }
+  }
+
+  
+  @media screen and (max-width: 500px){.Navbar{position: sticky;top: 0px;}.searchout{ padding-left:280px;padding-top: 7px;} }
+  @media screen and (max-width: 450px){.Navbar{position: sticky;top: 0px;}.searchout{ padding-left:220px;padding-top: 7px;} }
+  @media screen and (max-width: 350px){.Navbar{position: sticky;top: 0px;}.searchout{ padding-left:160px;padding-top: 7px;} }
+  
+
+  .secondNavbar{
+    height: 43px;
+    background-color: rgb(250,250,250);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4px 20px 4px 12px;
+    padding-left: 150px;
+    border-bottom: 2px solid #ccc;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+  }
+  .HomeIcon:hover{
+     
+    color: rgb(5,5,5)
+  }
+  .A{
+    color:rgb(140, 140, 140);
+    text-decoration: none;
+  }
+  .Q{
+    color:#8c8c8cff;
+    text-decoration: none;
+  }
+  .M{
+    color:#8c8c8cff;
+    text-decoration: none;
+  }
+  
+  
+  @media screen and (max-width: 500px){.secondNavbar{ padding-left:0px;padding-top: 5px;} 
+   .AA{ font-size: medium; font-weight: bold; padding-top: 3px;} .QQ{ font-size: medium; font-weight: bold;padding-top: 3px;} .MM{ font-size: medium; font-weight: bold;padding-top: 3px;} }
+  @media screen and (max-width: 450px){.secondNavbar{ padding-left:0px;padding-top: 5px;} 
+  .AA{ font-size: medium; font-weight: bold;padding-top: 3px;} .QQ{ font-size: medium; font-weight: bold;padding-top: 3px;} .MM{ font-size: medium; font-weight: bold;padding-top: 3px;}}
+  @media screen and (max-width: 350px){.secondNavbar{ padding-left:0px;padding-top: 5px;} 
+  .AA{ font-size: medium; font-weight: bold;padding-top: 3px;} .QQ{ font-size: medium; font-weight: bold;padding-top: 3px;} .MM{ font-size: medium; font-weight: bold;padding-top: 3px;}}
+  
+
+
+  .Resources{
+     padding-left: 20px;
+  }
+  
+  .QA{
+       padding-left: 20px;
+  }
+  
+  .meatothers{
+     padding-left: 20px;
+  }
+  
+  .A:hover{
+     color: rgb(5,5,5);
+  }
+  
+  .Q:hover{
+    color: rgb(5,5,5);
+  }
+  
+  .M:hover{
+    color: rgb(5,5,5);
+  }
+  
+  .RES{
+      padding-left: 150px;
+      padding-top: 30px;
+  }
+  .He{
+    color: #212f4dff;
+  }
+  .Pa{
+    color:rgb(73, 72, 72);
+    float: left;
+    font-size: large;
+  }
+
+
+  @media screen and (max-width: 500px){.RES{ padding-left:8px;padding-top: 10px;} .Pa{ float: none; font-size: small;  } }
+  @media screen and (max-width: 450px){.RES{ padding-left: 8px;padding-top: 10px;} .Pa{ float: none; font-size: small; } }
+  @media screen and (max-width: 350px){.RES{ padding-left:8px;padding-top: 10px;} .Pa{ float: none; font-size: small; } }
+
+  .mostpopular{
+    margin-top: 70px;
+    padding-left: 160px;
+  }
+  .an{
+    height: 35px;
+    align-items: center;
+    background-color:rgb(33, 47, 77) ;
+    margin-top: 30px;
+  }
+  
+  .AB{
+    text-decoration: none;
+    color: white;
+    padding-left: 280px;
+    justify-content: center;
+    margin: 1opx;
+  }
+  .Fooder{
+    margin-top:140px;
+  }
+  .imgfooder{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 15px;
+  }
+  
+  .fooderline{
+      display: flex;
+      justify-content: flex-start;
+      
+    
+  }
+
+  .demofooder{
+       display: none;
+  }
+
+
+  .lu{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .qli{
+     padding-left: 0%;
+  }
+  
+  .A{
+    text-decoration: none;
+    color: rgb(66, 136, 194);
+    font-size: large;
+  }
+  
+  .ul{
+    list-style-type: none;
+  }
+  .k{
+    color: rgb(140, 59, 59);
+    font-weight: 400;
+  }
+  .li{
+    text-decoration: none;
+    font-weight: 450;
+    color: rgb(15, 88, 184);
+  }
+  .pa{
+    color:rgb(112, 59, 76);
+    padding-top:0%
+  }
+
+  .select{
+    display: none;
+  }
+  
+  @media screen and (max-width: 500px){.AB{ display: none;} 
+  .select{display: block; border-radius: 5px; width: 300px; margin-left: 60px;}
+   .Team{width: 280px; margin-top: 5px; padding-left:10px ;}
+  .an{height: 40px;} .sel{padding-top: 6px;} .billa{width: 270px; padding-left: 10px;} .imgfooder{padding-left:0px;}
+  .ant-image {width: 270px;} .HRR{display: none;} .fooderline{display: none;} .demofooder{display: block;}
+ .dummyfod{display: flex;} .partner{display: flex;} .ul{padding-left: 0px; width: 150px;} 
+ .lu{margin-left:10px; padding: 0px;} .qli{padding-left: 10px;} .Fooder{margin-top: 0px; height:650px;}
+ .powdered{width: 130px;} .vijay{width:290px; height:160px; padding-left:10px; font-size: smaller;} 
+ .ajith{width:260px}}
+
+
+  @media screen and (max-width: 450px){.AB{ display: none;} .select{display: block;}
+  .select{display: block; border-radius: 5px; width: 300px; margin-left: 30px;} 
+   .an{height: 40px;} .sel{padding-top: 6px; .billa{width: 270px; padding-left: 10px;} }
+   .Team{width: 280px; margin-top: 5px; padding-left:10px ;} .HRR{display: none;} .fooderline{display: none;}
+   .demofooder{display: block;}
+}
+
+
+
+  @media screen and (max-width: 350px){.AB{  display: none;} .select{display: block;}
+  .select{display: block; border-radius: 5px; width:280px; margin-left: 20px;} 
+  .an{height: 40px;} .sel{padding-top: 6px; .billa{width: 270px; padding-left: 10px;} }
+  .Team{width: 280px; margin-top: 5px; padding-left:10px ;} .HRR{display: none;} .fooderline{display: none;}
+  .demofooder{display: block;}
+}
